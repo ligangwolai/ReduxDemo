@@ -1,7 +1,12 @@
 import React from 'react'
 import { browserHistory, Router } from 'react-router'
 import { Provider } from 'react-redux'
+// import AV from 'leancloud-storage'
 import PropTypes from 'prop-types'
+
+// const appId = 'D3U7vIk4fKhTzi74BjXCcGXo-gzGzoHsz'
+// const appKey = 'F7iMaQJhTMwGC0MvrFgPFTVn'
+// AV.init({ appId, appKey })
 
 class App extends React.Component {
   static propTypes = {

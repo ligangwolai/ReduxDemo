@@ -1,9 +1,11 @@
 import { combineReducers } from 'redux'
 import locationReducer from './location'
+import appleReducer from '@/routes/AppleBasket/modules/reducer'
 
 export const makeRootReducer = (asyncReducers) => {
   return combineReducers({
     location: locationReducer,
+    apple: appleReducer,
     ...asyncReducers
   })
 }
